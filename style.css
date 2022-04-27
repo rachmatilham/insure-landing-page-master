@@ -111,7 +111,7 @@ header .hero-image {
 
 header .text-container {
   padding-top: 89px;
-  padding-bottom: 54px;
+  padding-bottom: 64px;
   position: relative;
   z-index: 0;
 }
@@ -154,8 +154,8 @@ header p {
   font-size: 1.01em;
   line-height: 1.6;
 }
-header button {
-  margin: 34px auto;
+header .cta {
+  margin: 30px auto;
   width: 146px;
   height: 40px;
   border: 1px solid var(--very-light-gray);
@@ -165,7 +165,7 @@ header button {
   font-size: 0.87em;
   letter-spacing: 0.08em;
 }
-header button a {
+header .cta a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -175,7 +175,7 @@ header button a {
   text-transform: uppercase;
   text-decoration: none;
 }
-header button a:hover {
+header .cta a:hover {
   background-color: var(--very-light-gray);
   color: var(--dark-violet);
 }
@@ -231,6 +231,7 @@ article .people-first h3 {
 .call-to-action {
   margin: 141px 23px 0;
   padding-top: 72px;
+  padding-bottom: 72px;
   background-color: var(--dark-violet);
   color: var(--very-light-gray);
   position: relative;
@@ -244,8 +245,8 @@ article .people-first h3 {
   position: relative;
   z-index: 1;
 }
-.call-to-action button {
-  margin: 39px auto 73px;
+.call-to-action .cta {
+  margin: 37px auto 0;
   width: 160px;
   height: 40px;
   border: 1px solid var(--very-light-gray);
@@ -257,7 +258,7 @@ article .people-first h3 {
   position: relative;
   z-index: 1;
 }
-.call-to-action button a {
+.call-to-action .cta a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -267,7 +268,7 @@ article .people-first h3 {
   text-transform: uppercase;
   text-decoration: none;
 }
-.call-to-action button a:hover {
+.call-to-action .cta a:hover {
   background-color: var(--very-light-gray);
   color: var(--dark-violet);
 }
@@ -445,7 +446,7 @@ footer .container-2 .others p {
     background-image: url(./images/bg-pattern-intro-left-desktop.svg);
   }
   header .bg-right {
-    top: calc(-21% - 2px);
+    top: calc(-13%);
     width: 436px;
     height: 593px;
     background-image: url(./images/bg-pattern-intro-right-desktop.svg);
@@ -479,8 +480,8 @@ footer .container-2 .others p {
     margin-top: 24px;
     padding: 0;
   }
-  header button {
-    margin: 30px auto 0;
+  header .cta {
+    margin: 30px 0 0;
   }
 
   article {
@@ -536,7 +537,7 @@ footer .container-2 .others p {
     font-size: 3.25em;
     line-height: 1.15;
   }
-  .call-to-action button {
+  .call-to-action .cta {
     margin: 0;
   }
   .call-to-action .bg-cta {
