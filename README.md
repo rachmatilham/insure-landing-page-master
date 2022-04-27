@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution page on Frontend Mentor]()
+- Solution URL: [Solution page on Frontend Mentor](https://www.frontendmentor.io/solutions/insure-landing-page-SyJv_r8H9)
 - Live Site URL: [Github Pages](https://rachmatilham.github.io/insure-landing-page-master/)
 
 ## My process
@@ -47,7 +47,7 @@ I learned to improve my layouting skill for the landing page with dropdown navig
 
 ### Continued development
 
-I'm still gonna improve my skill for the more complex pages.
+I'm still gonna improve my skill for more complex pages.
 
 ## Author
 
